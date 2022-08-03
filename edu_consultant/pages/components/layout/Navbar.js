@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+import logoPic from "../../../public/rocket.png";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -24,19 +25,21 @@ export default function Navbar() {
         className={
           "fixed w-full xl:max-w-screen-3xl mx-auto flex flex-wrap items-center justify-between z-10 py-2 " +
           (bgColor
-            ? "bg-[#FFC901] backdrop-blur-sm text-black shadow-sm transition duration-200 ease-in"
-            : "bg-[#FFC901] backdrop-blur-sm text-black lg:bg-transparent ")
+            ? "bg-[#ffffffeb] backdrop-blur-sm text-black shadow-sm transition duration-200 ease-in"
+            : "bg-[#ffffffe7] backdrop-blur-sm text-black lg:bg-transparent ")
         }
       >
         <div className="w-full flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link href="/">
-            <div>
-              {/* <Image src="" alt="" className="h-14 ml-5" /> */}
-              <h1 className="text-2xl font-bold p-2">RocketSHIP</h1>
+            <div className="flex flex-wrap">
+              <h1 className="text-2xl font-bold p-2 text-[#2B464F] uppercase">
+                rocketship
+              </h1>
+              <Image src={logoPic} width={40} height={12} alt="" />
             </div>
           </Link>
           <button
-            className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >

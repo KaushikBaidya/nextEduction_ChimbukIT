@@ -93,12 +93,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center pb-16 md:pb-0 bg-[#201A59] py-1">
-        <p className="text-uppercase font-bold text-gray-200">
+      <div className="text-center pb-16 md:pb-0 bg-[#FFC901] py-1">
+        <p className="text-uppercase font-bold text-[#2A474F]">
           ©{new Date().getFullYear()}
           <span className="ml-2">TVC Trading Company All rights reserved</span>
         </p>
-        <p className="text-uppercase text-gray-200">
+        <p className="text-uppercase text-[#182b31]">
           Developed By
           <a
             href="https://chimbukit.com/"
