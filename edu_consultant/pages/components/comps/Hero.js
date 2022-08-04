@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="text-black lg:px-24 py-20 grid grid-cols-1 md:grid-cols-2 content-center justify-items-center gap-y-10 bg-white min-h-full">
         <div className="flex flex-col justify-center items-center md:items-start gap-y-10 text-left mx-2">
-          <p className="text-2xl md:text-4xl px-3">
+          <p className="text-2xl md:text-4xl text-center md:text-left px-3">
             Welcome to{" "}
             <span className="text-left text-[#FFC901] font-bold uppercase">
               rocketship
