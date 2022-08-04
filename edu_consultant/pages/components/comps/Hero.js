@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center md:items-start gap-y-10 text-left mx-2">
           <p className="text-2xl md:text-4xl text-center md:text-left px-3">
             Welcome to{" "}
-            <span className="text-left text-[#FFC901] font-bold uppercase">
+            <span className="text-left text-[#5490FF] font-bold uppercase">
               rocketship
             </span>
           </p>
@@ -21,7 +21,7 @@ const Hero = () => {
             An alternative use for wood pellets is animal bedding such as in
             horse stalls, and all of our pellets are excellent for this..
           </p> */}
-          <button className="bg-[#FFC901] text-black hover:bg-[#e9bc17] px-3 py-3 w-48 rounded ml-3">
+          <button className="bg-[#5490FF] text-white text-xl hover:bg-[#0056CC] px-3 py-3 w-56 rounded ml-3">
             Book A Free Consult
           </button>
         </div>
