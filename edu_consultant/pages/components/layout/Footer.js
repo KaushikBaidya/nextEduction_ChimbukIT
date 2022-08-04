@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-3xl text-[#0155D1] font-semibold font-sans text-center px-5 mt-2 mb-4">
+            <p className="text-2xl lg:text-3xl text-[#0155D1] font-semibold font-sans text-center px-5 mt-2 mb-4">
               Explore
             </p>
             <p className="text-sm lg:text-lg text-[#0154D7] font-normal font-sans text-center px-5 flex items-center gap-2 my-3">
@@ -66,10 +66,10 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-2xl text-[#395C63] font-semibold font-sans text-center px-5 my-2">
+            <p className="text-2xl text-[#0155D1] font-semibold font-sans text-center px-5 mt-2 mb-4">
               Quick Links
             </p>
-            <div className="text-[#395C63] grid grid-cols-1 justify-items-center">
+            <div className="text-[#4C90FD] hover:text-[#3c85fc] text-lg grid grid-cols-1 justify-items-center">
               <p>
                 <Link href="#seeHero">
                   <a>Home</a>
