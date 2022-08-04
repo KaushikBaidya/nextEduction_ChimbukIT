@@ -10,7 +10,7 @@ import {
 } from "react-icons/fi";
 import Link from "next/link";
 import Image from "next/image";
-import logoPic from "../../../public/rocket.png";
+import logoPic from "../../../public/logo.png";
 
 const Footer = () => {
   return (
@@ -19,27 +19,27 @@ const Footer = () => {
         <div className="w-full grid grid-cols-1 md:grid-cols-3 justify-items-center gap-y-2 py-2 mt-2">
           <div className="">
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="text-[24px] lg:text-[45px] text-[#395C63] font-semibold text-center px-5 ">
+              <h1 className="text-[24px] lg:text-[45px] text-gray-800 font-semibold text-center px-5 nunito">
                 Welcome To Rocketship
               </h1>
             </div>
             <div className="w-full flex flex-wrap gap-4 justify-center py-3">
-              <div className="w-10 h-10 flex bg-[#FFC901] justify-center items-center drop-shadow-xl rounded-lg text-[#395C63] hover:bg-[#d9aa01]">
+              <div className="w-10 h-10 flex bg-[#4992FB] justify-center items-center drop-shadow-xl rounded-lg text-[#fff] hover:bg-[#0155D1]">
                 <a href="#f">
                   <FiFacebook size={26} />
                 </a>
               </div>
-              <div className="w-10 h-10 flex bg-[#FFC901] justify-center items-center drop-shadow-xl rounded-lg text-[#395C63] hover:bg-[#d9aa01]">
+              <div className="w-10 h-10 flex bg-[#4992FB] justify-center items-center drop-shadow-xl rounded-lg text-[#fff] hover:bg-[#0155D1]">
                 <a href="#f">
                   <FiTwitter size={26} />
                 </a>
               </div>
-              <div className="w-10 h-10 flex bg-[#FFC901] justify-center items-center drop-shadow-xl rounded-lg text-[#395C63] hover:bg-[#d9aa01]">
+              <div className="w-10 h-10 flex bg-[#4992FB] justify-center items-center drop-shadow-xl rounded-lg text-[#fff] hover:bg-[#0155D1]">
                 <a href="#f">
                   <FiYoutube size={26} />
                 </a>
               </div>
-              <div className="w-10 h-10 flex bg-[#FFC901] justify-center items-center drop-shadow-xl rounded-lg text-[#395C63] hover:bg-[#d9aa01]">
+              <div className="w-10 h-10 flex bg-[#4992FB] justify-center items-center drop-shadow-xl rounded-lg text-[#fff] hover:bg-[#0155D1]">
                 <a href="#f">
                   <FiLinkedin size={26} />
                 </a>
@@ -48,20 +48,20 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-2xl text-[#395C63] font-semibold font-sans text-center px-5 my-2">
+            <p className="text-3xl text-[#0155D1] font-semibold font-sans text-center px-5 mt-2 mb-4">
               Explore
             </p>
-            <p className="text-sm lg:text-lg text-[#395C63] font-normal font-sans text-center px-5 flex items-center gap-2 my-1">
+            <p className="text-sm lg:text-lg text-[#0154D7] font-normal font-sans text-center px-5 flex items-center gap-2 my-3">
               <FiMapPin />
-              <span className="text-lg">USA</span>
+              <span className="text-lg text-gray-700">USA</span>
             </p>
-            <p className="text-sm lg:text-lg text-[#395C63] font-normal font-sans text-center px-5 flex items-center gap-2 my-1">
+            <p className="text-sm lg:text-lg text-[#0154D7] font-normal font-sans text-center px-5 flex items-center gap-2 my-3">
               <FiMail />
-              <span className="text-lg">info@rocketship.com</span>
+              <span className="text-lg text-gray-700">info@rocketship.com</span>
             </p>
-            <p className="text-sm lg:text-lg text-[#395C63] font-normal font-sans text-center px-5 flex items-center gap-2 my-1">
+            <p className="text-sm lg:text-lg text-[#0154D7] font-normal font-sans text-center px-5 flex items-center gap-2 my-3">
               <FiPhoneCall />
-              <span className="text-lg">646-861-8089</span>
+              <span className="text-lg text-gray-700">646-861-8089</span>
             </p>
           </div>
 
@@ -100,11 +100,8 @@ const Footer = () => {
           <span className="ml-2">Rocketship All rights reserved</span>
         </p>
         <Link href="/">
-          <div className="flex flex-wrap">
-            <h1 className="text-2xl lg:text-6xl font-bold p-2 text-[#2B464F] uppercase">
-              Rocketship
-            </h1>
-            <Image src={logoPic} width={80} height={10} alt="" />
+          <div className="px-5">
+            <Image src={logoPic} width={400} height={50} alt="" />
           </div>
         </Link>
         <p className="text-uppercase text-[#182b31] mb-1">
